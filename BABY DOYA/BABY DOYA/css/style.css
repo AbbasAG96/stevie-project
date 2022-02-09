@@ -1,0 +1,127 @@
+body{
+    margin: 50px;
+    padding: 0;
+}
+.Abouts{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr auto;
+    column-gap: 25px;
+    text-align: justify;
+}
+.BS{
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+}
+hr{
+    width: 80px;    
+    color: black;
+}
+.imgg{
+    width: 10px;
+    height: 10px;
+}
+.imgwrite{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 50px;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.imgwrite, img{
+    border-radius: 50%;
+    justify-items: center;
+    align-items: center;
+}
+.creation{
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 2px;
+}
+.BS{
+    background-image: url(../images/ag.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 190px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-style: italic;
+    opacity: 80%;
+    background-color:black;
+}
+.fotter_p{
+    text-align: center;
+    font-size: large;
+}
+.footer{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.masa{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.Food {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto auto ;
+    gap: 40px ;
+    justify-items: center;
+    align-items: center;
+    
+}
+.masap{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify ;
+}
+h1 {
+    text-align: center;
+}
+.HD {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto auto ;
+    gap: 40px ;
+    justify-items: center;
+    align-items: center;
+}
+.TrtImg{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.TRTIMG{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 40px ;
+    justify-items: center;
+    align-items: center;
+}
+.HDImg {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.HD{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 40px ;
+    justify-items: center;
+    align-items: center;
+}
+.Durbar{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify ;
+}
+
+.Tourist{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify ;
+}
